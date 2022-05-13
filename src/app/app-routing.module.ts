@@ -1,7 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import {DadoComponent} from './dado/dado.component';
+
+import {AcercadeComponent} from './acercade/acercade.component';
+
+const routes: Routes = [
+  {
+    path:'dados',
+    component:DadoComponent
+  },
+  {
+    path:'acercade',
+    component:AcercadeComponent
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

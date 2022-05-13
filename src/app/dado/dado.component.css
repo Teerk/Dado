@@ -1,0 +1,25 @@
+.dado{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 250px;
+    padding: 50px;
+    border-radius: 10px;
+    animation: animacion 2s;
+}
+
+@keyframes animacion {
+    0%   {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+    100% {
+        background-color: rgb(23, 23, 23);
+        transform: rotate(720deg);
+        color: white;
+    }
+  }

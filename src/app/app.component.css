@@ -1,0 +1,36 @@
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.frame{
+    display: flex;    
+    justify-content: center;
+    padding: 20px;
+}
+.opciones{
+    font-size: 26px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(47, 122, 7);
+    border-radius: 20px;
+}
+
+.opciones:hover{
+    font-size: 26px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(55, 152, 2);
+    border-radius: 20px;
+}
+
+.opciones:active{
+    font-size: 26px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(65, 157, 16);
+    border-radius: 20px;
+}
